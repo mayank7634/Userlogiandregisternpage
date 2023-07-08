@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form class="form" onsubmit="return validateRegistrationForm()">
+      <h2 ><u>Register</u></h2>
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="tel" id="phone" placeholder="Phone Number" required>
+      <button type="submit">Register</button>
+    </form>
+    <p class="link">Already have an account? <a href="login.html">Login</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

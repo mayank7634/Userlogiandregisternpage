@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./development-with-abstract-background.jpg);
+  height: 600px;
+  background-position: 800px;
+  
+  
+}
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #60acbc;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px lightblue inset;
+  
+}
+
+
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(rgb(104, 155, 174), rgb(163, 101, 118), rgb(76, 61, 138));
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2b8eaf;
+  color: rgb(255, 255, 255);
+  border: none;
+  box-shadow:3px 3px 3px lightblue inset;
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 10px;
+}
